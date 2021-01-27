@@ -16,7 +16,7 @@ import Contact from './sites/contact'
 
 function App() {
   return (
-    <div className="App bg-mainbg h-screen">
+    <div className="App bg-mainbg h-screen ">
       <Sidebar />
       <Switch>
         <Route path="/Home" component={Home} />
